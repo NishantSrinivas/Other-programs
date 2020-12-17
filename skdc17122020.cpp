@@ -5,7 +5,7 @@ int main(){
     getline(cin,s1);
     getline(cin,s2);
     int s1_size {s1.size()},start_idx {0},end_idx {s1_size-1};
-    for(in t i=0;i<s1_size;i++){
+    for(int i=0;i<s1_size;i++){
         if(s1.at(i)!=s2.at(i)){
             break;
         } 
